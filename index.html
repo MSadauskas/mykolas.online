@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MB Mykolas Sadauskas</title>
+<meta name="description" content="MB Mykolas Sadauskas — a Lithuanian company building AI products.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="MB Mykolas Sadauskas">
+<meta property="og:description" content="A Lithuanian company building AI products.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>◆</text></svg>">
+<style>
+:root {
+  --bg: #fbfbf9;
+  --fg: #16150f;
+  --muted: #6b6a60;
+  --line: #e2e0d8;
+  --accent: #7a5cff;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0e0e0c; --fg: #f2f1ea; --muted: #94938a; --line: #26251f; --accent: #a68cff; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background: var(--bg);
+  color: var(--fg);
+  font: 400 17px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+main { max-width: 40rem; padding: 12vh 1.5rem 4rem; margin: 0 auto; width: 100%; }
+.mark { color: var(--accent); font-size: 1.6rem; line-height: 1; }
+h1 { font-size: clamp(1.9rem, 6vw, 2.9rem); line-height: 1.15; letter-spacing: -0.02em; margin: 1.6rem 0 0; font-weight: 600; }
+h1 .legal { color: var(--muted); font-weight: 400; }
+p { max-width: 34rem; }
+.lead { font-size: 1.15rem; margin: 1.5rem 0 0; }
+.note { color: var(--muted); margin: 1rem 0 0; }
+a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+a:hover { color: var(--accent); }
+.contact { margin: 2.5rem 0 0; font-size: 1.05rem; }
+footer {
+  border-top: 1px solid var(--line);
+  padding: 1.25rem 1.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+footer div { max-width: 40rem; margin: 0 auto; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">◆</div>
+  <h1>MB Mykolas Sadauskas</h1>
+  <p class="lead">We build AI products.</p>
+  <p class="note">A small Lithuanian company (mažoji bendrija) working on applied artificial intelligence — research, tooling, and products.</p>
+  <p class="contact"><a href="mailto:mykolas_sadauskas@tuta.com">mykolas_sadauskas@tuta.com</a></p>
+</main>
+<footer>
+  <div>MB Mykolas Sadauskas · Lithuania</div>
+</footer>
+</body>
+</html>
